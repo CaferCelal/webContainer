@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             "Mozilla/5.0 (Linux; Android 9; Pixel 3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36"
 
         // Load your desired URL here
-        val url = "https://aviatorvip.com"
+        val url = "www.yoursite.com"
 
         webView.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(view: WebView?, url: String): Boolean {
